@@ -3762,3 +3762,524 @@ Recommended: 511.79
 [2022.06.26-03.04.03:816][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.06.26-03.04.03:824][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
 [2022.06.26-03.04.03:864][933]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2022.06.26-03.05.48:279][579]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: CF8F0F1C059D88FB4D4859E2FB7F2934E0CA8A6D), compiling. 
+[2022.06.26-03.05.48:287][579]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: CF558FD5DFD9511024608B985EB987E18EAFAD1C), compiling. 
+[2022.06.26-03.05.48:290][579]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.05.48:655][579]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: C6B032CC2ECADD473502A821C14038888D717EED), compiling. 
+[2022.06.26-03.05.48:671][579]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: AB4586F24320CAAF1B590C9DA8142D8D443CD7CF), compiling. 
+[2022.06.26-03.05.48:758][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.26-03.05.48:916][579]LogShaderCompilers: Display: ================================================
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Total job queries 1782, among them cache hits 966 (54.21%)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Tracking 760 distinct input hashes that result in 403 distinct outputs (53.03%)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: RAM used: 0.96 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.06%
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Shaders Compiled: 295
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Jobs assigned 760, completed 760 (100.00%)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Average time worker was idle: 55.61 s
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Time job spent in pending queue: average 11.33 s, longest 37.21 s
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Job execution time: average 3.78 s, max 6.84 s
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Job life time (pending + execution): average 15.11 s, max 37.89
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 66.12 s
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Jobs were issued in 317 batches (only local compilation was used), average 2.40 jobs/batch
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Average processing rate: 11.49 jobs/sec
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Effective parallelization: 6.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   63 times, average 0.79 sec, max 0.97 sec, min 0.42 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    9 times, average 0.74 sec, max 0.92 sec, min 0.65 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> (compiled   38 times, average 0.71 sec, max 0.79 sec, min 0.64 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled   50 times, average 0.71 sec, max 0.85 sec, min 0.36 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> (compiled   38 times, average 0.70 sec, max 0.77 sec, min 0.52 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.17% of total time (compiled   63 times, average 0.79 sec, max 0.97 sec, min 0.42 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.62% of total time (compiled   56 times, average 0.70 sec, max 0.91 sec, min 0.40 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.94% of total time (compiled   63 times, average 0.58 sec, max 0.80 sec, min 0.29 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                                             FDebugViewModeVS - 8.64% of total time (compiled   50 times, average 0.71 sec, max 0.85 sec, min 0.36 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.41% of total time (compiled   50 times, average 0.61 sec, max 0.85 sec, min 0.27 sec)
+[2022.06.26-03.05.48:917][579]LogShaderCompilers: Display: ================================================
+[2022.06.26-03.05.48:922][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.06.26-03.05.49:083][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.05.49:086][579]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.05.49:086][579]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrass965F22804B1947EFB5E8CEBD27A0B62C.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.05.49:095][579]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.05.49:095][579]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.05.49:097][579]MaterialEditorStats: Base pass shader: 125 instructions
+[2022.06.26-03.05.49:097][579]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.05.49:097][579]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.05.49:097][579]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.05.49:097][579]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.05.58:669][727]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: DC97158866CB76AECEE784DA66E04127F446402B), compiling. 
+[2022.06.26-03.05.58:677][727]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 33BE002EB675902D4F270DDF2D03F3D9EDA36BBC), compiling. 
+[2022.06.26-03.05.58:680][727]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.05.58:680][727]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.05.58:680][727]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.05.58:758][730]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.05.58:758][730]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.05.58:758][730]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.02:128][782]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.06.02:486][782]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 4D5435DF96B01DA8027E2F08B72035C924C9EBBE), compiling. 
+[2022.06.26-03.06.02:502][782]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: F10ED48891C1D1F7EB3BB5B94BA260615AE1217C), compiling. 
+[2022.06.26-03.06.02:589][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.26-03.06.02:756][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.06.26-03.06.02:916][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.06.02:918][782]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.06.02:919][782]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrass634A94654698AB75F92C91AB8790E611.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.06.02:928][782]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.06.02:928][782]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.06.02:929][782]MaterialEditorStats: Base pass shader: 125 instructions
+[2022.06.26-03.06.02:929][782]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.06.02:929][782]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.06.02:929][782]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.02:929][782]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.06.12:508][936]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 43608923C4AFB05E6B561062FF3CE998035A9498), compiling. 
+[2022.06.26-03.06.12:517][936]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: F07880E3283179A35E22115B67889F19094D3BBD), compiling. 
+[2022.06.26-03.06.12:521][936]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.12:521][936]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.12:521][936]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.12:601][939]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.12:601][939]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.12:601][939]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.14:428][966]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.06.14:789][966]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 7CF4AD9F71A3A1E8EAB552D9DD9BF8F806DC268D), compiling. 
+[2022.06.26-03.06.14:805][966]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: B653325E74315848652F0441BC18ABB997E7FC61), compiling. 
+[2022.06.26-03.06.14:891][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.26-03.06.15:057][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.06.26-03.06.15:249][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.06.15:251][966]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.06.15:252][966]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrassF78DA738499A79D5F955079969D311FD.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.06.15:261][966]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.06.15:261][966]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.06.15:262][966]MaterialEditorStats: Base pass shader: 125 instructions
+[2022.06.26-03.06.15:262][966]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.06.15:262][966]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.06.15:262][966]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.15:262][966]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.06.19:064][ 27]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: D149A59D481D9DD52F9E1D29B2CE5021D7B16009), compiling. 
+[2022.06.26-03.06.19:067][ 27]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 7BA1FFE180C94EDCA95BEC9444A9FC0CFDF78839), compiling. 
+[2022.06.26-03.06.19:070][ 27]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 23D9D4B0672DC08569A0E7E57AEB4413AF192BB6), compiling. 
+[2022.06.26-03.06.19:073][ 27]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: A49B9E3DE9362B528BAF1E5F5AC1B05323D087B3), compiling. 
+[2022.06.26-03.06.19:077][ 27]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.19:077][ 27]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.19:077][ 27]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.20:147][ 46]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.20:147][ 46]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.20:147][ 46]MaterialEditorStats: Shader Count: 3
+[2022.06.26-03.06.23:438][ 95]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 34CE3721ADBA09B522EEBDE3420BE319DD4410ED), compiling. 
+[2022.06.26-03.06.23:441][ 95]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: A8552D6D1600E8F1BF47BB99E8AE719D084FB877), compiling. 
+[2022.06.26-03.06.23:445][ 95]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.23:445][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.23:445][ 95]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.23:526][ 98]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.23:526][ 98]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.23:526][ 98]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.24:362][107]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 461D145C493256318BE72FEF97651EE21876EE1D), compiling. 
+[2022.06.26-03.06.24:364][107]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: C29C51DEA4EE468C5D84418E7DADDCF8C6EFF4F9), compiling. 
+[2022.06.26-03.06.24:368][107]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.24:368][107]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.24:368][107]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.24:508][110]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.24:508][110]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.24:508][110]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.26:571][138]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 27DBCB8CA68944C477C12BA590FB70527692CFAD), compiling. 
+[2022.06.26-03.06.26:574][138]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: D31E3F9F6482A1A44F03882AD73BA4518B89AFCE), compiling. 
+[2022.06.26-03.06.26:577][138]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.26-03.06.26:583][138]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.26:583][138]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.26:583][138]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.26:668][141]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.26:668][141]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.26:668][141]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.28:046][161]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.06.28:406][161]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 8DBFE77A2B201824FF88A9740D0E33394E9BE49B), compiling. 
+[2022.06.26-03.06.28:422][161]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 032B624B962DF8EA40FE17F0FF9E9E547450827A), compiling. 
+[2022.06.26-03.06.28:511][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.06.26-03.06.29:115][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.06.26-03.06.31:251][161]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.06.26-03.06.33:398][161]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004008s (2.161559s overbudget)
+[2022.06.26-03.06.33:504][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.06.33:507][161]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.06.33:507][161]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrassF39996E04DD80A125468118D894FB649.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.06.33:516][161]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.06.33:516][161]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.06.33:517][161]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.06.26-03.06.33:517][161]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.06.33:517][161]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.06.33:517][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.33:517][161]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.06.38:073][234]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 9895C4EB31C6838C99C02D94FDC184D529A92FB6), compiling. 
+[2022.06.26-03.06.38:075][234]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 5329EE58051E260EF5DAD8DEDD4640321D386E7D), compiling. 
+[2022.06.26-03.06.38:079][234]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.38:079][234]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.38:079][234]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.38:217][237]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.38:217][237]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.38:217][237]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.38:708][241]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 6E1905FAF956AEE82ED44EFBBAB6881A78356410), compiling. 
+[2022.06.26-03.06.38:711][241]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: F52758E06D0632100233998C7F2D7E4B135829CB), compiling. 
+[2022.06.26-03.06.38:714][241]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.38:714][241]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.38:714][241]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.38:888][245]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.38:888][245]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.38:888][245]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.39:921][257]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 8DF6BACA47A00CF1971C6AA7EA25860DDFE56DE5), compiling. 
+[2022.06.26-03.06.39:924][257]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 373FEF942EA1D5F35A0A8FE8DDDAD59A493608FB), compiling. 
+[2022.06.26-03.06.39:927][257]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.39:927][257]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.39:927][257]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.40:066][260]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.40:066][260]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.40:066][260]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.41:708][281]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 363B6F8960D25F7DF91D88104929F76C79308115), compiling. 
+[2022.06.26-03.06.41:711][281]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: A043028CF00E50EBA72042EB2498B01FBF8543FB), compiling. 
+[2022.06.26-03.06.41:714][281]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.41:714][281]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.41:715][281]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.41:852][284]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.41:852][284]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.41:852][284]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.42:472][290]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 0988304D3E8CA3950B54538CE6B44A682ECD4FCC), compiling. 
+[2022.06.26-03.06.42:475][290]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 7F254DF798D3114FEB0CD896BBAE81908897655D), compiling. 
+[2022.06.26-03.06.42:478][290]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.42:479][290]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.42:479][290]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.42:617][293]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.42:617][293]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.42:617][293]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.45:418][331]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 9E7E8A49BA77AC95B55C586806C07BB396CED012), compiling. 
+[2022.06.26-03.06.45:421][331]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 2B658C43DF605940223B4C1C2D103515787A0847), compiling. 
+[2022.06.26-03.06.45:425][331]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.45:425][331]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.45:425][331]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.45:563][334]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.45:563][334]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.45:563][334]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.46:865][350]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: F114D39ABBA5179D75517692155DB335D8D856D3), compiling. 
+[2022.06.26-03.06.46:868][350]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: B200AF21A5CF67EAABAC1F04B85A0791B8773D29), compiling. 
+[2022.06.26-03.06.46:872][350]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.46:872][350]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.46:872][350]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.47:010][353]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.47:010][353]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.47:010][353]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.48:176][367]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: E88ECCF1545223F414724C7262DA60BA776B5012), compiling. 
+[2022.06.26-03.06.48:178][367]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 2795EF4E01B08E29BBCB354F23EC39E96B3FF83B), compiling. 
+[2022.06.26-03.06.48:182][367]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.48:182][367]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.48:182][367]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.48:319][370]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.48:319][370]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.48:319][370]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.49:006][377]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: D8B7E89DC1C89142D276FE5279D1A9D6EA1A3646), compiling. 
+[2022.06.26-03.06.49:008][377]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 95A309A3F2B7B85EBBAAED6B0FEBF19746989CDE), compiling. 
+[2022.06.26-03.06.49:012][377]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.49:012][377]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.49:012][377]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.49:150][380]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.49:150][380]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.49:150][380]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.49:973][389]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 991403D8BBE5D9C87A0E4A09F23DC95434C3B8DA), compiling. 
+[2022.06.26-03.06.49:975][389]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 734B54A8C8B7B6BA7498178E6BAF0849BF59A98A), compiling. 
+[2022.06.26-03.06.49:979][389]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.49:979][389]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.49:979][389]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.50:117][392]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.50:117][392]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.50:117][392]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.06.52:262][422]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: C313EA606FBCFDBD50C6FD64167104A1C83A22C3), compiling. 
+[2022.06.26-03.06.52:265][422]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: AD19AF58871630619954FF36A40D11D777DE68D6), compiling. 
+[2022.06.26-03.06.52:268][422]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.26-03.06.52:273][422]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.06.52:273][422]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.52:273][422]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.06.52:305][424]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.06.52:305][424]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.52:305][424]MaterialEditorStats: Shader Count: 3
+[2022.06.26-03.06.53:728][445]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.06.54:098][445]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: BECE0C38EA1239ED49C6314FC3784AA8761E6D72), compiling. 
+[2022.06.26-03.06.54:115][445]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 1400A291215DC1864602AFD2363EEA6576E6121A), compiling. 
+[2022.06.26-03.06.54:204][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.06.26-03.06.54:374][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.06.26-03.06.54:550][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.06.54:553][445]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.06.54:553][445]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrass258D7A584C8630FE2D6B7A95479526E7.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.06.54:562][445]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.06.54:562][445]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.06.54:563][445]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.06.26-03.06.54:563][445]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.06.54:563][445]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.06.54:563][445]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.06.54:563][445]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.06.55:451][461]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.26-03.06.55:460][461]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.26-03.06.55:460][461]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.26-03.06.55:460][461]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.26-03.06.55:460][461]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.26-03.06.55:460][461]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.26-03.06.55:460][461]LogWorldPartition: Display: GetPartitionedActors took 69 us
+[2022.06.26-03.06.55:461][461]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2022.06.26-03.06.55:461][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.26-03.06.55:461][461]PIE: New page: PIE session: LighAtmosphere (26.06.2022, 07:06:55)
+[2022.06.26-03.06.55:461][461]LogPlayLevel: Creating play world package: /Game/Blockouts/UEDPIE_0_LighAtmosphere
+[2022.06.26-03.06.55:527][461]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.26-03.06.55:528][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066748s)
+[2022.06.26-03.06.55:528][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blockouts/LighAtmosphere.LighAtmosphere to /Game/Blockouts/UEDPIE_0_LighAtmosphere.LighAtmosphere (0.066790s)
+[2022.06.26-03.06.55:528][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.26-03.06.55:528][461]LogAIModule: Creating AISystem for world LighAtmosphere
+[2022.06.26-03.06.55:529][461]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.26-03.06.55:529][461]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.26-03.06.55:542][461]LogWorldPartition: Display: WorldPartition initialize took 13 ms
+[2022.06.26-03.06.55:542][461]LogPlayLevel: PIE: World Init took: (0.014656s)
+[2022.06.26-03.06.55:547][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.06.26-03.06.55:548][461]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2022.06.26-03.06.55:548][461]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.26-03.06.55:548][461]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.26-03.06.55:548][461]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.26-03.06.55:548][461]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.26-03.06.55:548][461]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.26-03.06.55:548][461]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.26-03.06.55:548][461]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.26-03.06.55:548][461]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.26-03.06.55:548][461]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.26-03.06.55:548][461]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.26-03.06.55:548][461]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.26-03.06.55:550][461]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.26-03.06.55:565][461]LogAudioMixer: Display: Using Audio Hardware Device VG240Y (NVIDIA High Definition Audio)
+[2022.06.26-03.06.55:565][461]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.26-03.06.55:565][461]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.26-03.06.55:565][461]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.26-03.06.55:566][461]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2022.06.26-03.06.55:566][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2022.06.26-03.06.55:567][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2022.06.26-03.06.55:567][461]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2022.06.26-03.06.55:567][461]LogInit: FAudioDevice initialized.
+[2022.06.26-03.06.55:567][461]LogAudio: Display: Audio Device (ID: 29) registered with world 'LighAtmosphere'.
+[2022.06.26-03.06.55:578][461]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.26-03.06.55:603][461]LogWorld: Bringing World /Game/Blockouts/UEDPIE_0_LighAtmosphere.LighAtmosphere up for play (max tick rate 0) at 2022.06.26-05.06.55
+[2022.06.26-03.06.55:604][461]LogWorld: Bringing up level for play took: 0.025972
+[2022.06.26-03.06.55:605][461]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2022.06.26-03.06.55:607][461]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2240.000 Y=-2310.000 Z=1142.000
+[2022.06.26-03.06.55:607][461]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.26-03.06.55:608][461]PIE: Server logged in
+[2022.06.26-03.06.55:609][461]PIE: Play in editor total start time 0,152 seconds.
+[2022.06.26-03.08.51:176][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.26-03.08.51:177][902]LogWorld: BeginTearingDown for /Game/Blockouts/UEDPIE_0_LighAtmosphere
+[2022.06.26-03.08.51:177][902]LogWorld: UWorld::CleanupWorld for LighAtmosphere, bSessionEnded=true, bCleanupResources=true
+[2022.06.26-03.08.51:179][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.26-03.08.51:261][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.26-03.08.51:264][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.26-03.08.51:269][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.26-03.08.51:271][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.06.26-03.08.51:272][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.06.26-03.08.51:282][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.06.26-03.08.51:318][903]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.06.26-03.08.55:480][968]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: E2AFD074B5BD72834C5592E3F0C13A26E7A466E5), compiling. 
+[2022.06.26-03.08.55:489][968]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.08.55:489][968]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.08.55:489][968]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: ================================================
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Total job queries 2589, among them cache hits 1707 (65.93%)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Tracking 826 distinct input hashes that result in 422 distinct outputs (51.09%)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: RAM used: 1.04 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.06%
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Shaders Compiled: 297
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Jobs assigned 826, completed 826 (100.00%)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Average time worker was idle: 100.48 s
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Time job spent in pending queue: average 10.53 s, longest 37.21 s
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Job execution time: average 3.53 s, max 6.84 s
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Job life time (pending + execution): average 14.06 s, max 37.89
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 72.27 s
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Jobs were issued in 383 batches (only local compilation was used), average 2.16 jobs/batch
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Average processing rate: 11.43 jobs/sec
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Effective parallelization: 6.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   66 times, average 0.78 sec, max 0.97 sec, min 0.42 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled   11 times, average 0.73 sec, max 0.92 sec, min 0.63 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> (compiled   38 times, average 0.71 sec, max 0.79 sec, min 0.64 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> (compiled   38 times, average 0.70 sec, max 0.77 sec, min 0.52 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled   13 times, average 0.70 sec, max 0.76 sec, min 0.62 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.78% of total time (compiled   66 times, average 0.78 sec, max 0.97 sec, min 0.42 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.26% of total time (compiled   58 times, average 0.70 sec, max 0.91 sec, min 0.40 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.69% of total time (compiled   66 times, average 0.58 sec, max 0.80 sec, min 0.29 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                                             FDebugViewModeVS - 8.26% of total time (compiled   52 times, average 0.70 sec, max 0.85 sec, min 0.36 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.05% of total time (compiled   52 times, average 0.60 sec, max 0.85 sec, min 0.27 sec)
+[2022.06.26-03.08.55:501][969]LogShaderCompilers: Display: ================================================
+[2022.06.26-03.08.55:566][971]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.08.55:566][971]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.08.55:566][971]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.08.57:535][  2]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.08.57:893][  2]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: FDE54DCC683D17DD06BCA7403E5349567AD9FC64), compiling. 
+[2022.06.26-03.08.57:909][  2]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 3E7925CD2A18CD538127C8B6101794F84D2CC613), compiling. 
+[2022.06.26-03.08.57:997][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.26-03.08.58:173][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.06.26-03.08.58:337][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.08.58:340][  2]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.08.58:340][  2]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrass9ADD1E8740EFCAA4E93148B94BD6C961.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.08.58:349][  2]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.08.58:349][  2]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.08.58:350][  2]MaterialEditorStats: Base pass shader: 125 instructions
+[2022.06.26-03.08.58:350][  2]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.08.58:350][  2]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.08.58:350][  2]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.08.58:350][  2]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.09.03:975][ 97]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 304C8AE82FBA9A12D37D087FBFDF1838D3EFF3F4), compiling. 
+[2022.06.26-03.09.03:978][ 97]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 34B3B719D9BC92859C8CDB41F18A1988D4E2C93A), compiling. 
+[2022.06.26-03.09.03:983][ 97]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.03:983][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.03:983][ 97]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.04:062][100]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.04:062][100]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.04:062][100]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.09.07:492][152]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 59F85D8AF3A367590CABCB97D1FE193FB21A8DCD), compiling. 
+[2022.06.26-03.09.07:495][152]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 68B9620D6A4F87CEEB32FD05659CEF2A4CFE74F2), compiling. 
+[2022.06.26-03.09.07:498][152]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.07:498][152]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.07:498][152]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.07:632][155]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.07:632][155]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.07:632][155]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.09.08:290][162]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 16EACFFD9B5D5656FF91A7F7D808BEB1907E983D), compiling. 
+[2022.06.26-03.09.08:293][162]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 80413BF4688C11BB41878B7BFD271F9DADA0310F), compiling. 
+[2022.06.26-03.09.08:297][162]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.08:297][162]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.08:297][162]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.08:430][165]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.08:430][165]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.08:430][165]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.09.09:603][181]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 6BCBB0593523D6FF594F2636F4810D3B57B69481), compiling. 
+[2022.06.26-03.09.09:606][181]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 007FB3FAA04A8156A44E7990E18C46FDD40099E3), compiling. 
+[2022.06.26-03.09.09:608][181]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.26-03.09.09:613][181]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.09:613][181]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.09:613][181]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.09:644][183]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.09:644][183]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.09:644][183]MaterialEditorStats: Shader Count: 3
+[2022.06.26-03.09.11:827][218]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.09.12:190][218]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: C0D9A58FD839D0DA0D5DA8BE327E12CA683628C6), compiling. 
+[2022.06.26-03.09.12:206][218]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 4D1066FBA91BEE7DBB31259822BA1A9D5FAFE22B), compiling. 
+[2022.06.26-03.09.12:294][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.26-03.09.12:456][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.06.26-03.09.12:604][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.09.12:606][218]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.09.12:607][218]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrassEDB62ABC424BAFDE905C8F80FF4F7C4C.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.09.12:616][218]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.09.12:616][218]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.09.12:617][218]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.06.26-03.09.12:617][218]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.09.12:617][218]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.09.12:617][218]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.12:617][218]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.09.17:024][291]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 6E9248E54ECBEB28396D17CD168C6303DD64731A), compiling. 
+[2022.06.26-03.09.17:027][291]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: E74EC6C904CFBCF522EAC85A210147E04FAF38EF), compiling. 
+[2022.06.26-03.09.17:030][291]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.17:030][291]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.17:030][291]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.17:160][294]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.17:160][294]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.17:160][294]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.09.17:692][299]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: FF2F23E842775C3063CD6CD4D8396EAF90D63D8A), compiling. 
+[2022.06.26-03.09.17:694][299]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: EE570938539F6B05A064F283E0B6CE69C7ACC47D), compiling. 
+[2022.06.26-03.09.17:698][299]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.17:698][299]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.17:698][299]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.17:830][302]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.17:830][302]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.17:830][302]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.09.19:076][318]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 8CFB8DB11F70AD36EF8C0F6932BAD5E8B06DC392), compiling. 
+[2022.06.26-03.09.19:078][318]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: C9CAADA08A889515FB135F32658CFA263794CE52), compiling. 
+[2022.06.26-03.09.19:082][318]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.19:082][318]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.19:082][318]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.19:214][321]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.19:214][321]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.19:214][321]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.09.23:633][386]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 5051CA2381A7C924083165604C8E22CB49ECE80E), compiling. 
+[2022.06.26-03.09.23:635][386]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 7A1A2C3AC558522628AACC2D7C8FAC76FA0424DB), compiling. 
+[2022.06.26-03.09.23:639][386]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.26-03.09.23:639][386]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.23:639][386]MaterialEditorStats: Shader Count: 0
+[2022.06.26-03.09.23:770][389]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.26-03.09.23:770][389]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.23:770][389]MaterialEditorStats: Shader Count: 10
+[2022.06.26-03.09.26:006][422]LogMaterialEditor: Saving and Compiling material FluffyGrass
+[2022.06.26-03.09.26:364][422]LogMaterial: Display: Missing cached shadermap for Preview:FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 8B2A16AF4959E9BF2A6415935432B0F0A25BA6B3), compiling. 
+[2022.06.26-03.09.26:380][422]LogMaterial: Display: Missing cached shadermap for FluffyGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 2A58E2C35C3E5231B1CF800A9F8F8156C73ADFEB), compiling. 
+[2022.06.26-03.09.26:396][422]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.26-03.09.26:521][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.26-03.09.26:690][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.06.26-03.09.26:856][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Grass/FluffyGrass" FILE="D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset" SILENT=true
+[2022.06.26-03.09.26:858][422]LogSavePackage: Moving output files for package: /Game/Assets/3D/Grass/FluffyGrass
+[2022.06.26-03.09.26:859][422]LogSavePackage: Moving 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Saved/FluffyGrass79ACE546440309AF28C3C59E1108CBB6.tmp' to 'D:/Projekte/UnrealProjects/3D-Vertiefung/IIIDTVThirdPerson 5.0/Content/Assets/3D/Grass/FluffyGrass.uasset'
+[2022.06.26-03.09.26:868][422]AssetCheck: New page: Asset Save: FluffyGrass
+[2022.06.26-03.09.26:868][422]LogContentValidation: Display: Validating Material /Game/Assets/3D/Grass/FluffyGrass.FluffyGrass
+[2022.06.26-03.09.26:869][422]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.06.26-03.09.26:869][422]MaterialEditorStats: Base pass vertex shader: 306 instructions
+[2022.06.26-03.09.26:869][422]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.26-03.09.26:869][422]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.26-03.09.26:869][422]MaterialEditorStats: Shader Count: 66
+[2022.06.26-03.10.17:136][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.26-03.10.17:145][833]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.26-03.10.17:145][833]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.26-03.10.17:145][833]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.26-03.10.17:145][833]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.26-03.10.17:145][833]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.26-03.10.17:145][833]LogWorldPartition: Display: GetPartitionedActors took 67 us
+[2022.06.26-03.10.17:146][833]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2022.06.26-03.10.17:147][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.26-03.10.17:147][833]PIE: New page: PIE session: LighAtmosphere (26.06.2022, 07:10:17)
+[2022.06.26-03.10.17:147][833]LogPlayLevel: Creating play world package: /Game/Blockouts/UEDPIE_0_LighAtmosphere
+[2022.06.26-03.10.17:213][833]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.26-03.10.17:214][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066890s)
+[2022.06.26-03.10.17:214][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blockouts/LighAtmosphere.LighAtmosphere to /Game/Blockouts/UEDPIE_0_LighAtmosphere.LighAtmosphere (0.066939s)
+[2022.06.26-03.10.17:214][833]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.26-03.10.17:214][833]LogAIModule: Creating AISystem for world LighAtmosphere
+[2022.06.26-03.10.17:215][833]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.26-03.10.17:215][833]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.26-03.10.17:228][833]LogWorldPartition: Display: WorldPartition initialize took 13 ms
+[2022.06.26-03.10.17:228][833]LogPlayLevel: PIE: World Init took: (0.014813s)
+[2022.06.26-03.10.17:234][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.06.26-03.10.17:235][833]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2022.06.26-03.10.17:235][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.26-03.10.17:235][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.26-03.10.17:235][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.26-03.10.17:235][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.26-03.10.17:235][833]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.26-03.10.17:235][833]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.26-03.10.17:235][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.26-03.10.17:235][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.26-03.10.17:235][833]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.26-03.10.17:235][833]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.26-03.10.17:235][833]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.26-03.10.17:237][833]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.26-03.10.17:251][833]LogAudioMixer: Display: Using Audio Hardware Device VG240Y (NVIDIA High Definition Audio)
+[2022.06.26-03.10.17:251][833]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.26-03.10.17:251][833]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.26-03.10.17:251][833]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.26-03.10.17:252][833]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2022.06.26-03.10.17:252][833]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2022.06.26-03.10.17:253][833]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2022.06.26-03.10.17:253][833]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2022.06.26-03.10.17:253][833]LogInit: FAudioDevice initialized.
+[2022.06.26-03.10.17:253][833]LogAudio: Display: Audio Device (ID: 30) registered with world 'LighAtmosphere'.
+[2022.06.26-03.10.17:265][833]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.26-03.10.17:290][833]LogWorld: Bringing World /Game/Blockouts/UEDPIE_0_LighAtmosphere.LighAtmosphere up for play (max tick rate 0) at 2022.06.26-05.10.17
+[2022.06.26-03.10.17:290][833]LogWorld: Bringing up level for play took: 0.025338
+[2022.06.26-03.10.17:291][833]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2022.06.26-03.10.17:293][833]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2240.000 Y=-2310.000 Z=1142.000
+[2022.06.26-03.10.17:293][833]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.26-03.10.17:294][833]PIE: Server logged in
+[2022.06.26-03.10.17:295][833]PIE: Play in editor total start time 0,153 seconds.
+[2022.06.26-03.11.32:688][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.26-03.11.32:688][882]LogWorld: BeginTearingDown for /Game/Blockouts/UEDPIE_0_LighAtmosphere
+[2022.06.26-03.11.32:688][882]LogWorld: UWorld::CleanupWorld for LighAtmosphere, bSessionEnded=true, bCleanupResources=true
+[2022.06.26-03.11.32:690][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.26-03.11.32:753][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.26-03.11.32:755][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.26-03.11.32:761][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.26-03.11.32:763][882]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.06.26-03.11.32:764][882]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.06.26-03.11.32:773][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.06.26-03.11.32:806][883]LogPlayLevel: Display: Destroying online subsystem :Context_48
